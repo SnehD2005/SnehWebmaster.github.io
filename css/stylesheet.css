@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+body {
+  margin: 0;
+  font-family: 'Work Sans', sans-serif;
+}
+
+
+header {
+  background: black;
+  height: 75px;
+}
+
+footer {
+  padding: 20px 0 0 0;
+  background-color: gray;  
+  color: white;
+  height: 75px;
+  width:100% important; 
+  margin: 0 !important;  
+}
+
+.social {float:right; margin: 0 10px 0 0;font-family:FontAwesome;font-size:20px;color:#fff;line-height:18px}
+.social a{background:#161616;padding:4px;display:inline-block;text-align:center;width:30px;height:30px;border-radius:4px;font-size:16px;color:#888;margin:0 5px 0 0}.social a:hover{color:#fff!important;text-decoration:none}.social a.facebook:hover{background-color:#3b5998}.social a.twitter:hover{background-color:#47c0d8}.social a.google-plus:hover{background-color:#ce482b}.social a.linkedin:hover{background-color:#0073B2}.social a.youtube:hover{background-color:#b72d24}.social a.instagram:hover{background-color:#e95950}
+
+
+.megamenu{background-color:#202020;background:-moz-linear-gradient(top,#202020 0,#181818 100%);background:-webkit-linear-gradient(top,#202020 0,#181818 100%);background:-o-linear-gradient(top,#202020 0,#181818 100%);background:-ms-linear-gradient(top,#202020 0,#181818 100%);background:-webkit-gradient(linear,left top,left bottom,color-stop(0,#202020),color-stop(100%,#181818));background:linear-gradient(to bottom,#202020 0,#181818 100%);filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#202020', endColorstr='#181818', GradientType=0 );color:#fff;border-top:1px solid #181818;box-shadow:0 1px 2px 0 rgba(0,0,0,.21);position:relative;z-index:999}
+
+
+.logo {
+  padding: 10px 0;
+}
+.navigation{
+  position: sticky;
+  display: block;
+ 
+  font-size: 15pt;
+  
+}
+
+#search {float:right; text-align:right; padding: 15px 10px 10px 0}
+
+
+nav ul {
+  margin: 0;
+  padding: 15px 0 0 0;
+  list-style: none;
+  word-spacing: 5px;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding-top: 2px;
+  position: relative;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;  
+}
+
+nav a:hover {
+  color: #dd6900;
+   text-decoration: none;
+  text-transform: uppercase;
+  }
+
+nav a::before {
+  content: '';
+  display: block;
+   background-color: #dd6900;
+  position: absolute;  
+  width: 0%;
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+nav{
+  position: fixed;
+}
+
+
+
+
+
+section{
+    color: #444;
+}
+
+.slide-text{
+  position: absolute;
+  margin-top: -310px;
+  margin-left: 200px;
+  font-size: 50px;
+}
+
+
+
+  .images{
+      
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+  }
+
+  .models{
+    text-align: center;
+  }
+  
+  
+  
+  
+  /* Container holding the image and the text */
+.container {
+  position: relative; 
+
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 80px;
+  left: 50px;
+  color:black;
+  font-size: 20px;
+  opacity: 100%;
+
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 50px;
+  right: 16px;
+  color: white;
+  font-size: 20px;
+}
+
+.overlay-text{
+width: 100%;
+opacity: 1.0;
+  filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+  
+.overlay-text h3{
+  position: absolute;
+  margin: 0 0  0 10px;
+  bottom: 240px;  
+  color: #fff;
+  font-size: 15pt;  
+}
+.overlay-text p{
+  position: absolute;
+  margin: 0 0 0 10px;
+  bottom: 200px;  
+  color: #0000ff;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 20%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 50px;
+}
+.centered a:link{
+  color: white;
+}
+
+.white-text{
+  color: white;
+}
+.centered a:hover{
+  color: white;
+  text-decoration: none;
+}
+
+.charging{
+  position: absolute;
+  bottom: 250px;
+  right: 120px;
+  color: white;
+  font-size: 60px;
+ 
+  
+  }
+.charging a:hover{
+  text-decoration: none;
+  color: white;
+}
+
+
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+* {margin: 0; padding: 0; list-style: none;}
+.image-wrapper {position: relative; display: inline-block;}
+.image-wrapper img {display: block; width:100% !important}
+
+.image-wrapper h2{position: absolute; top: 10%; left: 15px; right: 0; transform: translate(0, -50%); color: #000; text-shadow: 0 0 15px; font-size: 35px;}
+.image-wrapper p {position: absolute; top: 30%; left: 15px; right: 0; transform: translate(0, -50%); color: #000; text-shadow: 0 0 15px; font-size: 20px;}
+
+.image-wrapper .button1 {
+	position: absolute; 
+	top: 70%; 
+	left: 15px; 
+	right: 0; 
+    color: #313639;
+    text-decoration: none;
+    width: 190px;
+    cursor: pointer;    
+    padding-top: 13px;
+    padding-bottom: 13px;
+    background-color: #fff;    
+    padding-left: 21px;
+    padding-right: 21px;
+	
+}
+
+.image-wrapper .button1:hover {
+	position: absolute; 
+	top: 70%; 
+	left: 15px; 
+	right: 0; 
+    color: #fff;
+    text-decoration: none;
+    width: 190px;
+    cursor: pointer;    
+    padding-top: 13px;
+    padding-bottom: 13px;
+    background-color: #ff0000;    
+    padding-left: 21px;
+    padding-right: 21px;
+	
+}
+
+.image-wrapper .button2 {
+	position: absolute; 
+	top: 70%; 
+	left: 150px; 
+	right: 0; 
+	width: 130px;
+	color: #fff;
+    background: none;
+    border: 1px solid #fff;
+    cursor: pointer;
+    display: inline-block;
+    padding-bottom: 11px;
+    padding-top: 11px;
+    padding-left: 21px;
+    padding-right: 21px;
+    text-decoration: none;
+    
+} 
+
+.image-wrapper .button2:hover {
+	position: absolute; 
+	top: 70%; 
+	left: 150px; 
+	right: 0; 
+	width: 130px;
+	color: #ff0000;
+    background: none;
+    border: 1px solid #ff0000;
+    cursor: pointer;
+    display: inline-block;
+    padding-bottom: 11px;
+    padding-top: 11px;
+    padding-left: 21px;
+    padding-right: 21px;
+    text-decoration: none;
+    transition: background-color .24s,color .24s,border-color .24s;
+} 
+
+
+/* car section h2 class and title*/
+
+.title{
+  position: relative;
+ margin-top: -15px;
+ color:black;
+}
+
+.title a:hover{
+  
+  text-decoration: none;
+}
+
+
+
+
+
+.paragraph{
+position: relative;
+margin-top: -22px;
+
+}
+
+.Carsection{
+  height: 205px;
+}
+
+
+
+
